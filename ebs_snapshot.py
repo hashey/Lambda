@@ -15,7 +15,7 @@ def lambda_handler(event, context):
     
     # Setting the variable to loop through later
     # Filtering by only looking for EBS volumes where status = 'in-use'
-    total_ebs = ec2.describe_volumes(Filters=[{'Name': 'status', 'Values: ['in-use']}])
+    total_ebs = ec2.describe_volumes(Filters=[{'Name': 'status', 'Values': ['in-use']}])
     
     # Looping through and collecting all EBS volumes
     for volume in total_ebs['Volumes']:

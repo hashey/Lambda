@@ -1,0 +1,11 @@
+S3 bucket in unauthorized region
+S3 bucket with public permissions
+S3 bucket without tags
+Security Group with wildcard for...
+  22
+  3389
+  others?
+EC2 instance without tag
+EBS volume used without encryption
+Unauthorized AMI used
+Public subnet

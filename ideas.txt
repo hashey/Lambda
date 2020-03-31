@@ -1,6 +1,7 @@
 S3 bucket in unauthorized region
 S3 bucket with public permissions
 S3 bucket without tags
+unauthorized file extension written to S3
 Security Group with wildcard for...
   22
   3389

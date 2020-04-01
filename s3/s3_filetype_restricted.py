@@ -1,4 +1,4 @@
-# Trigger with S3 object creation events
+# Triggers on S3 object creation events
 
 import os
 import boto3

@@ -1,3 +1,5 @@
+# Trigger with S3 object creation events
+
 import json
 import os
 import boto3

@@ -1,4 +1,4 @@
-# Trigger with S3 object put request events
+# Trigger on S3 object put request events
 
 import json
 import boto3

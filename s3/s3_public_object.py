@@ -8,12 +8,6 @@ def lambda_handler(event, context):
         fileName = event['Records'][0]['s3']['object']['key']
         objectACL = s3.ObjectAcl(bucketName, fileName)
         
-        print("Bucket Name: ", bucketName)
-        print("File Name: ", fileName)
-        print("Pre-change permissions")
-        print(objectACL.grants)
-        print(type(objectACL))
-        
         for entry in objectACL.grants:
                 try:
                         if entry['Grantee']['URI'] == "http://acs.amazonaws.com/groups/global/AllUsers":
